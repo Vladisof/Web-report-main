@@ -1,0 +1,93 @@
+@import "./null-style.scss";
+@import "./main.scss";
+@import "./header.scss";
+@import "./text.scss";
+@import "./navigation.scss";
+@import "./components.scss";
+
+.wrapper {
+    background-color: #0d6cbd;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 20px;
+    height: 100%;
+}
+
+
+
+
+
+.developers {
+    width: 100%;
+
+    &__title {
+        text-align: center;
+        padding-bottom: 30px;
+        color: white;
+        font-size: 30px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__developer {
+        padding: 0 50px 50px 50px;
+    }
+
+    &__image {
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.37);
+        height: 600px;
+        width: 450px;
+    }
+
+    &__text {
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+p {
+    padding-bottom: 10px;
+
+    a {
+        color: #0d6cbd;
+        text-decoration: none;
+    }
+    ul {
+        padding: 0px 0 10px 0;
+        margin: 0;
+        li {
+        }
+    }
+}
+
+.double-padding {
+    padding-bottom: 40px;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.image-middle {
+    height: 400px;
+}
+
+.image-small {
+    height: 200px;
+}
+
+.image-large {
+    height: 600px;
+}
